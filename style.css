@@ -1,0 +1,137 @@
+.dropdown {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    background-color: lightgray;
+    display: block;
+}
+
+#mar {
+    border: 1px solid lightblue;
+    width: 1000px;
+    margin-left: 170px;
+    background-color: royalblue;
+    color: white;
+}
+
+#mar1 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#label1 {
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 1125px) {
+    #mar {
+        background-color: green;
+        margin: 0px;
+        width: 1125px;
+        display: flex;
+        justify-content: center;
+    }
+    #mar1 {
+        width: 1125px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #mar {
+        background-color: green;
+        margin: 0px;
+        width: 490px;
+        display: flex;
+        justify-content: center;
+    }
+    #mar1 {
+        width: 490px;
+    }
+}
+
+.color {
+    color: gray;
+    font-family: sans-serif;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.icons {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .class {
+        display: block;
+        text-align: center;
+    }
+    #ifam {
+        margin-left: 118px;
+    }
+    #imed {
+        margin-left: 152px;
+    }
+    #iedu {
+        margin-left: 145px;
+    }
+}
+
+.border {
+    border: 1px solid lightgray;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px;
+    box-shadow: 3px 3px 17px gray;
+}
+
+.hep {
+    border: 1px solid lightgray;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: royalblue;
+    background-color: rgb(228, 224, 224);
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.upe {
+    width: 200px;
+    height: 250px;
+    margin-left: 70px;
+}
+
+.upe label {
+    color: green;
+    font-size: 20px;
+}
+
+.image {
+    display: inline-block;
+}
+
+#top1 {
+    background-color: navy;
+    margin: 15px;
+    border-color: navy;
+    height: 30px;
+}
+
+#top1:hover {
+    border-radius: 12px;
+    background-color: royalblue;
+    transition-duration: 0.2s;
+}
